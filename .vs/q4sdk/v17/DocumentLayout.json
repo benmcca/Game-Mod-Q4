@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\New User\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\New User\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\weapon\\WeaponRocketLauncher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponRocketLauncher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\New User\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\weapon\\WeaponBlaster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponBlaster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "WeaponRocketLauncher.cpp",
+              "DocumentMoniker": "C:\\Users\\New User\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\weapon\\WeaponRocketLauncher.cpp",
+              "RelativeDocumentMoniker": "game\\weapon\\WeaponRocketLauncher.cpp",
+              "ToolTip": "C:\\Users\\New User\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\weapon\\WeaponRocketLauncher.cpp",
+              "RelativeToolTip": "game\\weapon\\WeaponRocketLauncher.cpp",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAqwNUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-31T04:57:24.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\New User\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Player.h",
               "RelativeDocumentMoniker": "game\\Player.h",
@@ -46,25 +63,24 @@
               "RelativeToolTip": "game\\Player.h",
               "ViewState": "AgIAAJUEAAAAAAAAAAAAAKAEAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-28T15:33:29.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T15:33:29.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WeaponBlaster.cpp",
               "DocumentMoniker": "C:\\Users\\New User\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\weapon\\WeaponBlaster.cpp",
               "RelativeDocumentMoniker": "game\\weapon\\WeaponBlaster.cpp",
               "ToolTip": "C:\\Users\\New User\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\weapon\\WeaponBlaster.cpp",
               "RelativeToolTip": "game\\weapon\\WeaponBlaster.cpp",
-              "ViewState": "AgIAAJ8BAAAAAAAAAAAvwLEBAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAJABAAAAAAAAAAAvwLEBAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-28T15:17:14.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SysCmds.cpp",
               "DocumentMoniker": "C:\\Users\\New User\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\gamesys\\SysCmds.cpp",
               "RelativeDocumentMoniker": "game\\gamesys\\SysCmds.cpp",
@@ -72,12 +88,11 @@
               "RelativeToolTip": "game\\gamesys\\SysCmds.cpp",
               "ViewState": "AgIAALYAAAAAAAAAAAAkwK0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-28T02:30:25.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T02:30:25.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SaveGame.cpp",
               "DocumentMoniker": "C:\\Users\\New User\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\gamesys\\SaveGame.cpp",
               "RelativeDocumentMoniker": "game\\gamesys\\SaveGame.cpp",
@@ -89,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Class.cpp",
               "DocumentMoniker": "C:\\Users\\New User\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\gamesys\\Class.cpp",
               "RelativeDocumentMoniker": "game\\gamesys\\Class.cpp",
@@ -101,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Simd.cpp",
               "DocumentMoniker": "C:\\Users\\New User\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\idlib\\math\\Simd.cpp",
               "RelativeDocumentMoniker": "idlib\\math\\Simd.cpp",
