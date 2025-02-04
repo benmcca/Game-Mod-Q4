@@ -448,7 +448,7 @@ stateResult_t rvWeaponRocketLauncher::State_Fire ( const stateParms_t& parms ) {
 			nextAttackTime = gameLocal.time + (fireRate * owner->PowerUpModifier ( PMOD_FIRERATE ));
 
 			//launch 3 rockets with spread
-			Attack ( false, 3, 10, 0, 1.0f );
+			Attack ( false, 3, spread, 0, 1.0f );
 
 			PlayAnim ( ANIMCHANNEL_LEGS, "fire", parms.blendFrames );	
 			return SRESULT_STAGE ( STAGE_WAIT );

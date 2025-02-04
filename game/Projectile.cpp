@@ -932,6 +932,7 @@ bool idProjectile::Collide( const trace_t &collision, const idVec3 &velocity, bo
 		return true;
 	}
 
+	gameLocal.Printf("Call Explode from Collide");
 	Explode( &collision, false, ignore );
 
 	return true;
@@ -1129,6 +1130,20 @@ void idProjectile::Event_ResidualDamage ( idEntity* ignore ) {
 	PostEventSec ( &EV_ResidualDamage, spawnArgs.GetFloat ( "delay_residual" ), ignore );
 }
 
+void idProjectile::SpawnAdditionalRockets(const idVec3& origin, const idVec3& normal) {
+
+	idVec3 direction = normal;
+
+	// Spawn a new projectile
+	idEntity* newRocket;
+	gameLocal.SpawnEntityDef(spawnArgs, &newRocket);
+
+	if (newRocket) {
+		idProjectile* projectile = static_cast<idProjectile*>(newRocket);
+		projectile->Launch(origin, direction, idVec3(0, 0, 0), 0.0f, damagePower);
+	}
+}
+
 /*
 ================
 idProjectile::Explode
@@ -1150,6 +1165,9 @@ void idProjectile::Explode( const trace_t *collision, const bool showExplodeFX, 
 	endpos = ( collision ) ? collision->endpos : GetPhysics()->GetOrigin();
 
 	removeTime = spawnArgs.GetInt( "remove_time", "1500" );
+
+	SpawnAdditionalRockets(endpos, normal);
+	gameLocal.Printf("Spawned additional rockets.\n");
 
 	// play sound
 	StopSound( SND_CHANNEL_BODY, false );
